@@ -5,6 +5,9 @@ Credit card fraud is becoming very common nowadays. Detecting these types of fra
 **Problem statement:**
 The goal of this project is to detect anomalous transactions in a dataset of financial transactions. An anomalous transaction is one that deviates significantly from the typical behavior of other transactions in the dataset. We aim to develop a machine learning model that can accurately identify anomalous transactions.
 
+**Dataset:**<BR>
+The dataset used in this project is the Credit Card Fraud Detection [dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle, which contains transactions made by credit cards in September 2013 by European cardholders. The dataset has 284,807 transactions, out of which 492 are fraudulent. The dataset is highly imbalanced, with the fraudulent transactions accounting for only 0.17% of the total transactions.
+
 **Observation:**
 - Isolation Forest detected 73 errors versus Local Outlier Factor detecting 97 errors vs. SVM detecting 8516 errors.
 - Isolation Forest has a 99.74% more accurate than LOF of 99.65% and SVM of 70.09.
